@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Chat - NearLove</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <header>
+        <nav class="navbar">
+            <div class="logo">NearLove</div>
+            <ul class="nav-links">
+                <li><a href="profile.html">Hồ sơ</a></li>
+                <li><a href="login.html">Đăng xuất</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section class="chat-container">
+            <div class="friends-list">
+                <h3>Bạn bè</h3>
+                <ul id="friendList"></ul>
+            </div>
+            <div class="chat-box">
+                <div id="messages"></div>
+                <form id="chatForm">
+                    <input type="text" id="messageInput" placeholder="Nhập tin nhắn..." required>
+                    <button type="submit" class="btn-primary">Gửi</button>
+                </form>
+            </div>
+        </section>
+    </main>
+
+    <script src="js/chat.js"></script>
+</body>
+</html>
